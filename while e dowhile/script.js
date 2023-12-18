@@ -8,7 +8,7 @@ while (condicao) {
 }
 */
 
-let condicao = true
+/*let condicao = true
 while(condicao === true){
     let idade = Number(prompt('Insira sua idade'))
     console.log (idade) //aqui vai colocar todas as idades no console
@@ -19,4 +19,11 @@ while(condicao === true){
     }
 }
 
-console.log ('acabou o while')
+console.log ('acabou o while')*/
+
+let idade = 18
+while (idade >= 18){
+    idade = Number(prompt ('qual a sua idade'))
+    console.log
+}
+console.log ('vc é menor de idade')
