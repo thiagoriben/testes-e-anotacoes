@@ -21,12 +21,21 @@ while(condicao === true){
 
 console.log ('acabou o while')*/
 
-let idade = 18
+/*let idade = 18
 while (idade >= 18){ //enquando a idade for maior ou igual a 18
     idade = Number(prompt ('qual a sua idade'))
     console.log
 }
-console.log ('vc é menor de idade')
+console.log ('vc é menor de idade')*/
 
 //se eu setar a idad como 17 ja, o while para
 //se eu fizer com o dowhile, ele pergunta a idade uma vez ainda, e logo após para
+
+let idade = 17
+
+do {
+        idade = Number(prompt ('qual a sua idade'))
+        console.log (idade)
+} while (idade >= 18)   
+
+console.log ('vc é menor de idade')
